@@ -1,0 +1,24 @@
+{
+  "name": "@sletheren/personalnumbergenerator",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Sletheren/personalNumberGenerator.git"
+  },
+  "version": "1.0.0",
+  "description": "A mini tool to Generate Personal Numbers (Format: YYMMDD1234)",
+  "main": "index.js",
+  "author": "Sletheren",
+  "keywords": [
+    "personal",
+    "number",
+    "security",
+    "identifier",
+    "sweden",
+    "pno",
+    "generator",
+    "fake",
+    "personalnummer",
+    "personalnumber"
+  ],
+  "license": "MIT"
+}
