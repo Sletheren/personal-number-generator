@@ -1,4 +1,4 @@
-# PersonalNumberGenerator
+# PersonalNumberGenerator [![Version](https://img.shields.io/npm/v/@sletheren/personalnumbergenerator.svg)](https://www.npmjs.com/package/@sletheren/personalnumbergenerator)
 
 A very small Javascript tool to generate valid swedish personal numbers for mocking,testing or whatever you need.
 
