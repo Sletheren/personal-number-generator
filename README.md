@@ -28,7 +28,8 @@ import personalnumbergenerator from '@sletheren/personalnumbergenerator';
 ### Generate a Personal number
 Call the function you imported to generate a personal number
 ```
-const personalNumber = personalnumbergenerator(); 
+const personalNumber = personalnumbergenerator();
+// personalNumber will have a format like YYMMDD1234 like 9311102001 (with a valid checksum)
 ```
 
 
