@@ -1,6 +1,6 @@
-# PersonalNumberGenerator [![Version](https://img.shields.io/npm/v/@sletheren/personalnumbergenerator.svg)](https://www.npmjs.com/package/@sletheren/personalnumbergenerator)
+# PersonalNumberGenerator [![Version](https://img.shields.io/npm/v/personal-number-generator.svg)](https://www.npmjs.com/package/personal-number-generator)
 
-A very small Javascript tool to generate valid swedish personal numbers for mocking,testing or whatever you need.
+A very small Javascript tool to generate valid swedish personal numbers for mocking, testing or whatever you need.
 
 ## Get started
 
@@ -11,27 +11,28 @@ It's very easy to use the tool, follow the instructions
 Install the package using npm
 
 ```
-npm i @sletheren/personalnumbergenerator 
+npm i personal-number-generator 
 ```
 
 ### Import the package
 
 * NodeJS:
-```
-const personalnumbergenerator = require('@sletheren/personalnumbergenerator'); 
-```
+````js
+const personalnumbergenerator = require('personal-number-generator'); 
+````
+
 * Javascript (ES6):
-```
-import personalnumbergenerator from '@sletheren/personalnumbergenerator'; 
-```
+````js
+import personalnumbergenerator from 'personal-number-generator'; 
+````
 
 ### Generate a Personal number
 Call the function you imported to generate a personal number
-```
+
+````js
 const personalNumber = personalnumbergenerator();
-// personalNumber will have a format like YYMMDD1234 like 9311102001 (with a valid checksum)
-```
+console.log(personalNumber); // 9407121939
+````
 
-
-### Enjoy mocking/Testing :)
+### Enjoy generating :)
 

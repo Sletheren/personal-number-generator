@@ -1,14 +1,15 @@
 {
-  "name": "@sletheren/personalnumbergenerator",
+  "name": "personal-number-generator",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Sletheren/personalNumberGenerator.git"
+    "url": "https://github.com/Sletheren/personal-number-generator.git"
   },
-  "version": "1.0.0",
-  "description": "A mini tool to Generate Personal Numbers (Format: YYMMDD1234)",
+  "version": "1.0.1",
+  "description": "A mini tool to Generate Swedish Personal Numbers (Format: YYMMDD1234)",
   "main": "index.js",
-  "author": "Sletheren",
+  "author": "Abdelghafour Rakhma",
   "keywords": [
+    "javascript",
     "personal",
     "number",
     "security",
@@ -18,7 +19,11 @@
     "generator",
     "fake",
     "personalnummer",
-    "personalnumber"
+    "personalnumber",
+    "react",
+    "vue",
+    "angular",
+    "nodejs"
   ],
   "license": "MIT"
 }
